@@ -20,7 +20,7 @@ class TimeLineCellObjectModel: NSObject {
         self.userID = userID
     }
     static var Models: [TimeLineCellObjectModel] {
-        return [TimeLineCellObjectModel(title: "hello", text: "明日学校めんどー", image: URL(string: "http://pic.prepics-cdn.com/     arashi85/29622330.jpeg")!, userID: 2),
+        return [TimeLineCellObjectModel(title: "hello", text: "明日学校めんどー", image: URL(string: "http://pic.prepics-cdn.com/arashi85/29622330.jpeg")!, userID: 2),
                 TimeLineCellObjectModel(title: "hello", text: "明日学校めんどー", image: URL(string: "http://pic.prepics-cdn.com/arashi85/29622330.jpeg")!, userID: 2),
                 TimeLineCellObjectModel(title: "hello", text: "明日学校めんどー", image: URL(string: "http://pic.prepics-cdn.com/arashi85/29622330.jpeg")!, userID: 2)]
     }

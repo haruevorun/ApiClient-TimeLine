@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13338A76226FCADF266C0B6E /* Pods_APIClient_TimeLineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985E27B06B168E9BE17E884 /* Pods_APIClient_TimeLineTests.framework */; };
 		7E36B2B121591702009640D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B021591702009640D2 /* AppDelegate.swift */; };
 		7E36B2B321591702009640D2 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B221591702009640D2 /* TimeLineViewController.swift */; };
 		7E36B2B621591702009640D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2B421591702009640D2 /* Main.storyboard */; };
@@ -17,6 +18,11 @@
 		7E36B2D42159170C009640D2 /* APIClient_TimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2D32159170C009640D2 /* APIClient_TimeLineUITests.swift */; };
 		7E36B2E421591D48009640D2 /* TimeLineCellObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E321591D48009640D2 /* TimeLineCellObjectModel.swift */; };
 		7E36B2E72159228E009640D2 /* TimeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E62159228E009640D2 /* TimeLineModel.swift */; };
+		7E36B2EB21592F08009640D2 /* TimeLineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E921592F08009640D2 /* TimeLineCollectionViewCell.swift */; };
+		7E36B2EC21592F08009640D2 /* TimeLineCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2EA21592F08009640D2 /* TimeLineCollectionViewCell.xib */; };
+		7E36B2EE215939FD009640D2 /* Don'tShow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2ED215939FD009640D2 /* Don'tShow.jpeg */; };
+		E04F09B2B4C1FB1F5B081882 /* Pods_APIClient_TimeLine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24DB8215B1F3E3942DFEC01C /* Pods_APIClient_TimeLine.framework */; };
+		F11706E6D9E0A7B42770F3BE /* Pods_APIClient_TimeLineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1D19F47E0C9AB1E0AA29C7 /* Pods_APIClient_TimeLineUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		003F43666BC37942F8DA0851 /* Pods-APIClient+TimeLineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLineTests/Pods-APIClient+TimeLineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24DB8215B1F3E3942DFEC01C /* Pods_APIClient_TimeLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient_TimeLine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4F302E25FC0A729E99925E /* Pods-APIClient+TimeLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLine/Pods-APIClient+TimeLine.debug.xcconfig"; sourceTree = "<group>"; };
+		5985E27B06B168E9BE17E884 /* Pods_APIClient_TimeLineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient_TimeLineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701CBC1E94621E1C261A9B8F /* Pods-APIClient+TimeLineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLineUITests/Pods-APIClient+TimeLineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7E36B2AD21591702009640D2 /* APIClient+TimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APIClient+TimeLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E36B2B021591702009640D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E36B2B221591702009640D2 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +64,13 @@
 		7E36B2D52159170C009640D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E36B2E321591D48009640D2 /* TimeLineCellObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCellObjectModel.swift; sourceTree = "<group>"; };
 		7E36B2E62159228E009640D2 /* TimeLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineModel.swift; sourceTree = "<group>"; };
+		7E36B2E921592F08009640D2 /* TimeLineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E36B2EA21592F08009640D2 /* TimeLineCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeLineCollectionViewCell.xib; sourceTree = "<group>"; };
+		7E36B2ED215939FD009640D2 /* Don'tShow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Don'tShow.jpeg"; sourceTree = "<group>"; };
+		8090D51C144C7F75B16B0B95 /* Pods-APIClient+TimeLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLine.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLine/Pods-APIClient+TimeLine.release.xcconfig"; sourceTree = "<group>"; };
+		C92D0362E69D439D0EA0627C /* Pods-APIClient+TimeLineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLineTests/Pods-APIClient+TimeLineTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB1D19F47E0C9AB1E0AA29C7 /* Pods_APIClient_TimeLineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APIClient_TimeLineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F1F0A8208DD5861700E4C0 /* Pods-APIClient+TimeLineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIClient+TimeLineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIClient+TimeLineUITests/Pods-APIClient+TimeLineUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E04F09B2B4C1FB1F5B081882 /* Pods_APIClient_TimeLine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13338A76226FCADF266C0B6E /* Pods_APIClient_TimeLineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11706E6D9E0A7B42770F3BE /* Pods_APIClient_TimeLineUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +104,13 @@
 		7E36B2A421591702009640D2 = {
 			isa = PBXGroup;
 			children = (
+				7E36B2ED215939FD009640D2 /* Don'tShow.jpeg */,
 				7E36B2AF21591702009640D2 /* APIClient+TimeLine */,
 				7E36B2C72159170C009640D2 /* APIClient+TimeLineTests */,
 				7E36B2D22159170C009640D2 /* APIClient+TimeLineUITests */,
 				7E36B2AE21591702009640D2 /* Products */,
+				DB92A8215B41A73F6EECF844 /* Pods */,
+				EBFF282F0F91BF5F587769B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,7 @@
 		7E36B2AF21591702009640D2 /* APIClient+TimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				7E36B2E821592EF1009640D2 /* Cells */,
 				7E36B2E52159225E009640D2 /* Models */,
 				7E36B2E221591D06009640D2 /* Objects */,
 				7E36B2B021591702009640D2 /* AppDelegate.swift */,
@@ -158,6 +183,38 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7E36B2E821592EF1009640D2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E36B2E921592F08009640D2 /* TimeLineCollectionViewCell.swift */,
+				7E36B2EA21592F08009640D2 /* TimeLineCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DB92A8215B41A73F6EECF844 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F4F302E25FC0A729E99925E /* Pods-APIClient+TimeLine.debug.xcconfig */,
+				8090D51C144C7F75B16B0B95 /* Pods-APIClient+TimeLine.release.xcconfig */,
+				003F43666BC37942F8DA0851 /* Pods-APIClient+TimeLineTests.debug.xcconfig */,
+				C92D0362E69D439D0EA0627C /* Pods-APIClient+TimeLineTests.release.xcconfig */,
+				F0F1F0A8208DD5861700E4C0 /* Pods-APIClient+TimeLineUITests.debug.xcconfig */,
+				701CBC1E94621E1C261A9B8F /* Pods-APIClient+TimeLineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBFF282F0F91BF5F587769B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24DB8215B1F3E3942DFEC01C /* Pods_APIClient_TimeLine.framework */,
+				5985E27B06B168E9BE17E884 /* Pods_APIClient_TimeLineTests.framework */,
+				CB1D19F47E0C9AB1E0AA29C7 /* Pods_APIClient_TimeLineUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E36B2D82159170C009640D2 /* Build configuration list for PBXNativeTarget "APIClient+TimeLine" */;
 			buildPhases = (
+				A4B3B9E23922270E3BDAD6DD /* [CP] Check Pods Manifest.lock */,
 				7E36B2A921591702009640D2 /* Sources */,
 				7E36B2AA21591702009640D2 /* Frameworks */,
 				7E36B2AB21591702009640D2 /* Resources */,
+				0B62BE8B7074BA4C1F3F6AD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E36B2DB2159170C009640D2 /* Build configuration list for PBXNativeTarget "APIClient+TimeLineTests" */;
 			buildPhases = (
+				109844873A5DE2FEDD04115F /* [CP] Check Pods Manifest.lock */,
 				7E36B2C02159170C009640D2 /* Sources */,
 				7E36B2C12159170C009640D2 /* Frameworks */,
 				7E36B2C22159170C009640D2 /* Resources */,
@@ -200,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E36B2DE2159170C009640D2 /* Build configuration list for PBXNativeTarget "APIClient+TimeLineUITests" */;
 			buildPhases = (
+				6383F9A4C4B689BB238912F5 /* [CP] Check Pods Manifest.lock */,
 				7E36B2CB2159170C009640D2 /* Sources */,
 				7E36B2CC2159170C009640D2 /* Frameworks */,
 				7E36B2CD2159170C009640D2 /* Resources */,
@@ -264,6 +325,8 @@
 			files = (
 				7E36B2BE2159170B009640D2 /* LaunchScreen.storyboard in Resources */,
 				7E36B2BB2159170B009640D2 /* Assets.xcassets in Resources */,
+				7E36B2EE215939FD009640D2 /* Don'tShow.jpeg in Resources */,
+				7E36B2EC21592F08009640D2 /* TimeLineCollectionViewCell.xib in Resources */,
 				7E36B2B621591702009640D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +347,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B62BE8B7074BA4C1F3F6AD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-APIClient+TimeLine/Pods-APIClient+TimeLine-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIClient+TimeLine/Pods-APIClient+TimeLine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		109844873A5DE2FEDD04115F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClient+TimeLineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6383F9A4C4B689BB238912F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClient+TimeLineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4B3B9E23922270E3BDAD6DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-APIClient+TimeLine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E36B2A921591702009640D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +431,7 @@
 			files = (
 				7E36B2B921591702009640D2 /* APIClient_TimeLine.xcdatamodeld in Sources */,
 				7E36B2B321591702009640D2 /* TimeLineViewController.swift in Sources */,
+				7E36B2EB21592F08009640D2 /* TimeLineCollectionViewCell.swift in Sources */,
 				7E36B2E421591D48009640D2 /* TimeLineCellObjectModel.swift in Sources */,
 				7E36B2B121591702009640D2 /* AppDelegate.swift in Sources */,
 				7E36B2E72159228E009640D2 /* TimeLineModel.swift in Sources */,
@@ -464,6 +605,7 @@
 		};
 		7E36B2D92159170C009640D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4F302E25FC0A729E99925E /* Pods-APIClient+TimeLine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +624,7 @@
 		};
 		7E36B2DA2159170C009640D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8090D51C144C7F75B16B0B95 /* Pods-APIClient+TimeLine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,6 +643,7 @@
 		};
 		7E36B2DC2159170C009640D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 003F43666BC37942F8DA0851 /* Pods-APIClient+TimeLineTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +665,7 @@
 		};
 		7E36B2DD2159170C009640D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92D0362E69D439D0EA0627C /* Pods-APIClient+TimeLineTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +687,7 @@
 		};
 		7E36B2DF2159170C009640D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F1F0A8208DD5861700E4C0 /* Pods-APIClient+TimeLineUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +708,7 @@
 		};
 		7E36B2E02159170C009640D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701CBC1E94621E1C261A9B8F /* Pods-APIClient+TimeLineUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
