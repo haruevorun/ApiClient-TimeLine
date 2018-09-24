@@ -8,14 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7E36B2B121591702009640D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B021591702009640D2 /* AppDelegate.swift */; };
-		7E36B2B321591702009640D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B221591702009640D2 /* ViewController.swift */; };
+		7E36B2B321591702009640D2 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B221591702009640D2 /* TimeLineViewController.swift */; };
 		7E36B2B621591702009640D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2B421591702009640D2 /* Main.storyboard */; };
 		7E36B2B921591702009640D2 /* APIClient_TimeLine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2B721591702009640D2 /* APIClient_TimeLine.xcdatamodeld */; };
 		7E36B2BB2159170B009640D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2BA2159170B009640D2 /* Assets.xcassets */; };
 		7E36B2BE2159170B009640D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E36B2BC2159170B009640D2 /* LaunchScreen.storyboard */; };
 		7E36B2C92159170C009640D2 /* APIClient_TimeLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2C82159170C009640D2 /* APIClient_TimeLineTests.swift */; };
 		7E36B2D42159170C009640D2 /* APIClient_TimeLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2D32159170C009640D2 /* APIClient_TimeLineUITests.swift */; };
-		7E36B2E421591D48009640D2 /* TimeLineCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E321591D48009640D2 /* TimeLineCellModel.swift */; };
+		7E36B2E421591D48009640D2 /* TimeLineCellObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E321591D48009640D2 /* TimeLineCellObjectModel.swift */; };
+		7E36B2E72159228E009640D2 /* TimeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E36B2E62159228E009640D2 /* TimeLineModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		7E36B2AD21591702009640D2 /* APIClient+TimeLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APIClient+TimeLine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E36B2B021591702009640D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E36B2B221591702009640D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E36B2B221591702009640D2 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		7E36B2B521591702009640D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E36B2B821591702009640D2 /* APIClient_TimeLine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APIClient_TimeLine.xcdatamodel; sourceTree = "<group>"; };
 		7E36B2BA2159170B009640D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +51,8 @@
 		7E36B2CF2159170C009640D2 /* APIClient+TimeLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "APIClient+TimeLineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E36B2D32159170C009640D2 /* APIClient_TimeLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient_TimeLineUITests.swift; sourceTree = "<group>"; };
 		7E36B2D52159170C009640D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7E36B2E321591D48009640D2 /* TimeLineCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCellModel.swift; sourceTree = "<group>"; };
+		7E36B2E321591D48009640D2 /* TimeLineCellObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineCellObjectModel.swift; sourceTree = "<group>"; };
+		7E36B2E62159228E009640D2 /* TimeLineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		7E36B2AF21591702009640D2 /* APIClient+TimeLine */ = {
 			isa = PBXGroup;
 			children = (
+				7E36B2E52159225E009640D2 /* Models */,
 				7E36B2E221591D06009640D2 /* Objects */,
 				7E36B2B021591702009640D2 /* AppDelegate.swift */,
 				7E36B2E121591CCD009640D2 /* ViewController */,
@@ -134,7 +137,7 @@
 		7E36B2E121591CCD009640D2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				7E36B2B221591702009640D2 /* ViewController.swift */,
+				7E36B2B221591702009640D2 /* TimeLineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -142,9 +145,17 @@
 		7E36B2E221591D06009640D2 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				7E36B2E321591D48009640D2 /* TimeLineCellModel.swift */,
+				7E36B2E321591D48009640D2 /* TimeLineCellObjectModel.swift */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		7E36B2E52159225E009640D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E36B2E62159228E009640D2 /* TimeLineModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E36B2B921591702009640D2 /* APIClient_TimeLine.xcdatamodeld in Sources */,
-				7E36B2B321591702009640D2 /* ViewController.swift in Sources */,
-				7E36B2E421591D48009640D2 /* TimeLineCellModel.swift in Sources */,
+				7E36B2B321591702009640D2 /* TimeLineViewController.swift in Sources */,
+				7E36B2E421591D48009640D2 /* TimeLineCellObjectModel.swift in Sources */,
 				7E36B2B121591702009640D2 /* AppDelegate.swift in Sources */,
+				7E36B2E72159228E009640D2 /* TimeLineModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TimeLineViewController.swift
 //  APIClient+TimeLine
 //
 //  Created by haruta yamada on 2018/09/24.
