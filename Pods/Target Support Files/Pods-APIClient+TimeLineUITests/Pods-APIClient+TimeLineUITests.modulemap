@@ -1,0 +1,6 @@
+framework module Pods_APIClient_TimeLineUITests {
+  umbrella header "Pods-APIClient+TimeLineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

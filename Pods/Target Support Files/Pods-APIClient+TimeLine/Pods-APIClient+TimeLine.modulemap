@@ -1,0 +1,6 @@
+framework module Pods_APIClient_TimeLine {
+  umbrella header "Pods-APIClient+TimeLine-umbrella.h"
+
+  export *
+  module * { export * }
+}

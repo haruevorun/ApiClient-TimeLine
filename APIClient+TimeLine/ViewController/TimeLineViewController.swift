@@ -12,7 +12,14 @@ final class TimeLineViewController: UIViewController {
 
     fileprivate let collectionView: UICollectionView = {
         let layout:UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+        layout.itemSize = UIScreen.main.bounds.size
+        layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0)
+        layout.minimumInteritemSpacing = 0
+        layout.minimumLineSpacing = 0
+        let contentInsetAdjustmentBehavior: UIScrollViewContentInsetAdjustmentBehavior = .never
         let collectionView: UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.contentOffset = CGPoint(x: 0, y: 0)
+        collectionView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionView.isPagingEnabled = true
         return collectionView
     }()
@@ -31,12 +38,15 @@ final class TimeLineViewController: UIViewController {
         
     }
     override func viewDidLayoutSubviews() {
-        collectionView.frame = self.view.frame
+        self.collectionView.frame = self.view.frame
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.edgesForExtendedLayout = UIRectEdge.all
     }
     
    
@@ -60,12 +70,5 @@ extension TimeLineViewController: UICollectionViewDataSource {
 
 extension TimeLineViewController: UICollectionViewDelegate {
     
-}
-
-extension TimeLineViewController: UICollectionViewDelegateFlowLayout {
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return self.view.frame.size
-    }
 }
 
