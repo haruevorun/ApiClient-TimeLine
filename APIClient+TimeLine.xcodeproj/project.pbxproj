@@ -287,13 +287,16 @@
 				TargetAttributes = {
 					7E36B2AC21591702009640D2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					7E36B2C32159170C009640D2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 7E36B2AC21591702009640D2;
 					};
 					7E36B2CE2159170C009640D2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = 7E36B2AC21591702009640D2;
 					};
 				};
@@ -617,7 +620,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -636,7 +639,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLine";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -657,7 +660,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLineTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APIClient+TimeLine.app/APIClient+TimeLine";
 			};
@@ -679,7 +682,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLineTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APIClient+TimeLine.app/APIClient+TimeLine";
 			};
@@ -700,7 +703,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLineUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "APIClient+TimeLine";
 			};
@@ -721,7 +724,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.hogehoge.APIClient-TimeLineUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "APIClient+TimeLine";
 			};
